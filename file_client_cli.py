@@ -90,7 +90,7 @@ def remote_delete(filename):
     return hasil['status'] == 'OK'
 
 if __name__=='__main__':
-    server_address=('0.0.0.0',6666)
+    server_address=('127.0.0.1',7777)
     remote_list()
     remote_get('donalbebek.jpg')
     remote_delete('test.txt')
